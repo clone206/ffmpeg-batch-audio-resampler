@@ -1,5 +1,5 @@
 # ffmpeg Batch Audio Resampler/Format Converter
-A batch [ffmpeg](http://ffmpeg.org) audio file converter/resampler for *nix systems, written in bash. Tested in macOS and ubuntu, with bash 3.2+
+A batch audio file converter/resampler for *nix systems, written in bash, making use of [ffmpeg](http://ffmpeg.org). Tested in macOS and ubuntu, with bash 3.2+
 
 This utility is meant to work only with audio files. It is mainly designed to help in situations where you have multiple lossless audio files in one or many format/sample rate(s), and you want to convert them all to one particular format/sample rate. It supports a specific target sample rate for all files, or you can set a maximum sample rate, and the closest even multiple of 44.1K or 48K below the specified maximum will be calculated and set for you.
 
